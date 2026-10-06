@@ -8,6 +8,10 @@ serviços e localização são ilustrativos, e isso é declarado em cada arquivo
 avaliações do Google ficam como variáveis (`[NOTA]` e `[N]`), para não inventar prova social que
 pareça real.
 
+## Ver o site
+
+Publicado via GitHub Pages: https://jhandersonsites.github.io/portfolio-anuncios-odontologia/
+
 ## O que tem aqui
 
 Um anúncio para cada "dor" do paciente, todos na mesma estrutura:
@@ -43,3 +47,12 @@ roteiro de Stories em 4 telas e o criativo sugerido (imagem ou vídeo).
   as avaliações sejam de 5 estrelas: escreva "nota 5,0 com N avaliações", e não "N avaliações
   5 estrelas", a menos que seja o caso
 - Só citar trechos de avaliação se forem reais e vierem do perfil da clínica
+
+## Stack
+
+Arquivo único `index.html`, HTML + CSS puro (sem framework, sem build, sem JavaScript), Google
+Fonts como única dependência externa. Mobile-first, acessível (contraste AA, foco visível,
+`prefers-reduced-motion`).
+
+Os textos do site espelham os arquivos em [`anuncios/`](anuncios/), que continuam sendo a fonte
+em Markdown.

@@ -56,6 +56,20 @@ descrição, roteiro de Stories em 4 telas e criativo sugerido (imagem ou vídeo
   como espaço opcional, a ser preenchido com um trecho real do perfil do cliente
 - Sem imagens de antes e depois
 
+## O site
+
+Página única publicada via GitHub Pages, no mesmo padrão das outras peças de portfólio.
+
+- Arquivo único `index.html` autocontido, CSS em `<style>`, sem framework, sem build, sem JavaScript
+- Mobile-first, a partir de 360px, sem rolagem horizontal
+- Corpo com no mínimo 16px; toque mínimo de 44x44px; contraste mínimo de 4.5:1
+- HTML semântico, um único `h1`; foco visível no teclado; `prefers-reduced-motion` respeitado
+- Google Fonts permitido (Fraunces e DM Sans); nenhuma outra dependência externa
+- `lang="pt-BR"`, Open Graph completo, imagem de compartilhamento em `img/og.png`
+- **Sem** dados estruturados `LocalBusiness` — a clínica não existe e não deve ser indexada como real
+- Rodapé com a linha: "Projeto conceitual — esta clínica é fictícia"
+- Os textos do site espelham os arquivos de `anuncios/`: ao mudar um, mude o outro
+
 ## Direção visual (ilustrativa)
 
 - Verde-sálvia e rosa-pimenta (a cor do fruto da aroeira) sobre fundo off-white
